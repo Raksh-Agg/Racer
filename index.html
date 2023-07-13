@@ -2,27 +2,60 @@
 <html>
 <head>
     <title>Rectangle of Squares</title>
-    <link rel="stylesheet" href="style.css">  
-    <script src="move.js"> </script>
+    <style>
+        .square {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            display: inline-block;
+            visibility: hidden;
+        }
+        .row {
+            clear: both;
+        }
+        .rectangle {
+            text-align: center;
+        }
+        .perimeter-square {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            background-color: black;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <div class="rectangle">
-        <!-- Generate rows -->
         <div class="row">
-            <!-- Generate squares in each row with unique IDs -->
-            <div class="square" id="square-1"></div>
-            <div class="square" id="square-2"></div>
-            <div class="square" id="square-3"></div>
-            <div class="square" id="square-4"></div>
-            <div class="square" id="square-5"></div>
-            <div class="square" id="square-6"></div>
-            <div class="square" id="square-7"></div>
-            <div class="square" id="square-8"></div>
-            <div class="square" id="square-9"></div>
-            <div class="square" id="square-10"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
         </div>
-        <!-- Add more rows here if needed -->
+        <div class="row">
+            <div class="perimeter-square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="perimeter-square"></div>
+        </div>
+        <div class="row">
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+            <div class="perimeter-square"></div>
+        </div>
     </div>
-
 </body>
 </html>
