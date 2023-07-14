@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     // const squares = Array.from(document.getElementsByClassName('square'));
-    let Row_Top = document.getElementById("row_top").children;
+    const Row_Top = Array.from(document.getElementById("row_top").children);
     // for(var i = 0; i < searchEles.length; i++) {
     //     if(searchEles[i].tagName == 'SELECT' || searchEles.tagName == 'INPUT') {
     //         if(searchEles[i].id.indexOf('RT') == 0) {
@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //         }
     //     }
     // }
-    let Row_Bottom = document.getElementById("row_bottom").children;
+    const Row_Bottom = Array.from(document.getElementById("row_bottom").children);
     // for(var i = 0; i < searchEles.length; i++) {
     //     if(searchEles[i].tagName == 'SELECT' || searchEles.tagName == 'INPUT') {
     //         if(searchEles[i].id.indexOf('RB') == 0) {
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //         }
     //     }
     // }
-    let Column_Right = document.getElementById("column_right").children;
+    const Column_Right = Array.from(document.getElementById("column_right").children);
     // for(var i = 0; i < searchEles.length; i++) {
     //     if(searchEles[i].tagName == 'SELECT' || searchEles.tagName == 'INPUT') {
     //         if(searchEles[i].id.indexOf('CR') == 0) {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     //         }
     //     }
     // }
-    let Column_Left = document.getElementById("column_left").children;
+    const Column_Left = Array.from(document.getElementById("column_left").children);
     // for(var i = 0; i < searchEles.length; i++) {
     //     if(searchEles[i].tagName == 'SELECT' || searchEles.tagName == 'INPUT') {
     //         if(searchEles[i].id.indexOf('CL') == 0) {
@@ -34,8 +34,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
     let currentSquareIndex = 0;
 
-    Row_Top[currentSquareIndex].classList.add('selectedSquare');
-    Row_Top[currentSquareIndex].classList.remove('square');
+    // Row_Top[currentSquareIndex].classList.add('selectedSquare');
+    // Row_Top[currentSquareIndex].classList.remove('square');
     // print(Row_Top)
     // squares[currentSquareIndex].classList.add('selected');
 
