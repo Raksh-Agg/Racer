@@ -1,3 +1,6 @@
+body {
+    background-color: rgb(46, 45, 52);
+}
 .row_top
 {
     margin-top: 100px;
@@ -18,19 +21,23 @@
     align-items: center;
 }
 .columns {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
   /* margin: 10px; */
 }
 
 .column_left {
-    margin-left: 80px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin-left: 62px;
     /* background: #e8e7e3;
     border: 1px solid #8a8a8a; */
 }
 
 .column_right {
-    margin-right: 78px;
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin-right: 60px;
   /* background: #e8e7e3;
   border: 1px solid #8a8a8a; */
 }
@@ -43,24 +50,23 @@
   line-height: 75px;
   font-size: 30px;
 } */
-.flex-square {
-  margin: 10px;
-  border-radius: 5px;
+.square {
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
     width: 60px;
     height: 60px;
-    border: 1px solid black;
-    /* display: inline-block; */
-    /* background-color: white; Set the initial color to white */
+    border: 2px solid black;
 }
 .selectedSqaure {
+    margin: 10px;
     border-radius: 5px;
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border: 1px solid black;
+    background-color: rgb(46, 45, 52);
+    width: 60px;
+    height: 60px;
+    border: 2px solid black;
     display: inline-block;
-    background-color: white; /* Set the initial color to white */
-    /* box-sizing: border-box; */
     position: relative;
 }
 
@@ -72,5 +78,6 @@
     left: 10%;
     width: 80%;
     height: 80%;
-    background-color: black;
+    background-color: grey;
+    
 }
