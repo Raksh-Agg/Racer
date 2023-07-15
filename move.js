@@ -112,6 +112,10 @@ startBtn.addEventListener('click', function onClick() {
     countDown.classList.remove('countdown');
     countDown.classList.add('countdown_numbers');
     lapsNumber.innerHTML = 1; // Initializing Lap number to 1
+    countDown.innerHTML = '3';
+    count = 0; second = 0; // Resetting stopWatch
+    distanceTravelled = 0; // Variable to maintain Lap number
+    isForward = true;
 
     // Changing countdown digit to 2 after 1 second
     setTimeout(function() {
