@@ -2,52 +2,72 @@
 <html>
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="move.js"></script>
 </head>
 <body>
-
-<div class="row_top">
-    <div class="square" id="RT1"></div>
-    <div class="square" id="RT2"></div>
-    <div class="square" id="RT3"></div>
-    <div class="square" id="RT4"></div>
-    <div class="square" id="RT5"></div>
-    <div class="square" id="RT6"></div>
-    <div class="square" id="RT7"></div>
-    <div class="square" id="RT8"></div>
-    <div class="square" id="RT9"></div>
-    <div class="square" id="RT10"></div>
-    <div class="square" id="RT11"></div>
-    <div class="square" id="RT12"></div>
-    <div class="square" id="RT13"></div>
-</div>
-<div class="columns">
-    <div class="column_left">
-        <div class="square" id="CL1"></div>
-        <div class="square" id="CL2"></div>
-        <div class="square" id="CL3"></div>
+    
+    <!-- <script src="stopwatch.js"></script> -->
+    <div id="race_info" class="race_info">
+        <div class="time" id="time">
+            <span class="digit" id="sec">
+                00</span>
+                <span class="txt">.</span>
+                <span class="digit" id="count">
+                00  </span>
+                    <span class="txt"> &nbsp Seconds</span>
+        </div>
+        <div id="laps" class="laps">
+            <span>Lap Number : </span>
+            <span id="laps_num">1</span>
+        </div>
     </div>
-    <div class="column_right">
-        <div class="square" id="CR1"></div>
-        <div class="square" id="CR2"></div>
-        <div class="square" id="CR3"></div>
+    <div class="row_top">
+        <div class="square" id="RT1"></div>
+        <div class="square" id="RT2"></div>
+        <div class="square" id="RT3"></div>
+        <div class="square" id="RT4"></div>
+        <div class="square" id="RT5"></div>
+        <div class="square" id="RT6"></div>
+        <div class="square" id="RT7"></div>
+        <div class="square" id="RT8"></div>
+        <div class="square" id="RT9"></div>
+        <div class="square" id="RT10"></div>
+        <div class="square" id="RT11"></div>
+        <div class="square" id="RT12"></div>
+        <div class="square" id="RT13"></div>
     </div>
-</div>
-<div class="row_bottom">
-    <div class="square" id="RB1"></div>
-    <div class="square" id="RB2"></div>
-    <div class="square" id="RB3"></div>
-    <div class="square" id="RB4"></div>
-    <div class="square" id="RB5"></div>
-    <div class="square" id="RB6"></div>
-    <div class="square" id="RB7"></div>
-    <div class="square" id="RB8"></div>
-    <div class="square" id="RB9"></div>
-    <div class="square" id="RB10"></div>
-    <div class="square" id="RB11"></div>
-    <div class="square" id="RB12"></div>
-    <div class="square" id="RB13"></div>
-</div>
+    <div class="columns">
+        <div class="column_left">
+            <div class="square" id="CL1"></div>
+            <div class="square" id="CL2"></div>
+            <div class="square" id="CL3"></div>
+        </div>
+        <div id="buttons">
+            <button class="btn" id="start">
+                Start</button>
+            <div class="countdown" id="countdown"> 3 </div>
+        </div>
+        <div class="column_right">
+            <div class="square" id="CR1"></div>
+            <div class="square" id="CR2"></div>
+            <div class="square" id="CR3"></div>
+        </div>
+    </div>
+    <div class="row_bottom">
+        <div class="square" id="RB1"></div>
+        <div class="square" id="RB2"></div>
+        <div class="square" id="RB3"></div>
+        <div class="square" id="RB4"></div>
+        <div class="square" id="RB5"></div>
+        <div class="square" id="RB6"></div>
+        <div class="square" id="RB7"></div>
+        <div class="square" id="RB8"></div>
+        <div class="square" id="RB9"></div>
+        <div class="square" id="RB10"></div>
+        <div class="square" id="RB11"></div>
+        <div class="square" id="RB12"></div>
+        <div class="square" id="RB13"></div>
+    </div>
+    <script src="move.js"></script>
 </body>
 </html>
 

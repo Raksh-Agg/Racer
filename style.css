@@ -1,9 +1,43 @@
 body {
     background-color: rgb(46, 45, 52);
 }
+
+.race_info {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.time {
+    width : 50%;
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    margin-right: 40px;
+    
+}
+.laps {
+    margin-right: 40px;
+    font-size: 50px;
+    color :chocolate;
+    /* width : 50%; */
+}
+
+.digit {
+    font-size: 20px;
+    color: #fff;font-size: 50px;
+    color :chocolate;
+}
+.txt {
+    font-size: 20px;
+    color: #fffcd6;
+    color :chocolate;
+    font-size: 50px;
+}
 .row_top
 {
-    margin-top: 100px;
+    margin-top: 50px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -57,4 +91,59 @@ body {
     height: 80%;
     background-color: grey;
     
+}
+
+
+
+#buttons {
+    margin-top: 50px;
+    /* margin-top: 30px; */
+}
+ 
+.btn {
+    margin-top: 50px;
+    width: 100px;
+    padding: 10px 15px;
+    /* margin: 0px 20px; */
+    margin : 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+}
+ 
+#start {
+    background-color: #009779;
+}
+
+.countdown {
+    display: none;
+}
+.countdown_numbers {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: red;
+    /* text-col */
+    /* display: none; */
+}
+.countdown_text {
+    margin-top: 30px;
+    font-size: 70px;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-col */
+    /* display: none; */
+}
+.countdown_directions {
+    font-size: 70px;
+    /* margin-top: 30px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-col */
+    /* display: none; */
 }
